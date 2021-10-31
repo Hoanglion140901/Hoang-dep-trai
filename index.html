@@ -1,51 +1,36 @@
 <!DOCTYPE html>
 <html>
-    <head> 
-        xin chào mình là Trần Hoàng
-        <title> Xin chào</title>
+    <head>
         <meta charset="utf-8">
-        <link rel="stylesheet" href="style.css">
-        
+        <style>
+            html{
+                font-size: 100%;
+            }
+            .box{
+                width: 100%;
+                height: 30vh;
+                background-color: rgb(165, 180, 157);
+            }
+            h1{
+                font-size: 1rem ;
+            }   
+            .box::after{
+                content: attr(phude);
+            }
+            a::after{
+                content: "(" attr(href)")";
+            }
+            /* vw-width, vh - height */
+            /* viewpor */
+        </style>
     </head>
-    <body>
-        <h1 > Mô tả về Công ty drc</h1>
-        <p> -	Tiền thân là nhà máy đắp vỏ xe của quân đội Mỹ, đến nay Công ty cổ phần Cao su Đà Nẵng đã có quá trình phát triển liên tục hơn 45 năm. Nguồn nhân lực là yếu tố quan trọng mang đến sự thành công: Ban giám đốc có nhiều kinh nghiệm, năng động giúp Công ty phát triển liên tục nhiều năm. Đội ngũ kỹ sư và cán bộ quản lý có tay nghề cao, sảng tạo, được cử đi tu nghiệp ở nước ngoài về phục vụ lâu dài. Tập thể CBCNV đoàn kết nhất trí, tự tin và có trách nhiệm với công việc.</p>
-        <img src="https://i.pinimg.com/originals/fc/48/92/fc489236a6fe67c502a04d8da1903d6f.png" alt="ảnh hộp Sữa">
-        
-        <a href="https://www.facebook.com/"> tới facebook</a>
-        <ul>
-            <li>hmtl là gi</li>
-            <li>cài dat moi trường</li>
-            <li>kdsf</li>
-            <li>fjire</li>
-        </ul>
-        <table>
-            <thead>
-                <th>stt</th>
-                <th>tên</th>
-                <th>địa chỉ</th>
-                <th>ngày tháng năm sinh</th>
-            </thead>
-            <body>
-                <tr>
-                    <td>1</td>
-                    <td>hoàng</td>
-                    <td>hội an</td>
-                    <td>14-9-2001</td>
-                </tr>
-                <tr>
-                    <td>1</td>
-                    <td>hoàng</td>
-                    <td>hội an</td>
-                    <td>14-9-2001</td>
-                </tr>
-                <tr>
-                    <td>1</td>
-                    <td>hoàng</td>
-                    <td>hội an</td>
-                    <td>14-9-2001</td>
-                </tr>
-            </body>
-        </table>
+    <body style="font-size: 30px;">
+        <div class='box' phude=></div>
+        <div class="box"></div>
+        <a href="https://www.facebook.com/bubu28072000">Phạm Khang</a>
+        <div >
+        <h1 title="hello" >Đĩ khang Mập địt đáng ghét</h1>
+        <img src="https://scontent.fdad3-5.fna.fbcdn.net/v/t1.6435-1/p320x320/51651197_110564176739359_2797326832838377472_n.jpg?_nc_cat=111&ccb=1-5&_nc_sid=7206a8&_nc_ohc=FP6xUp2P0UYAX9m-tdw&_nc_oc=AQmsS5pWa1A-6_EYnJSNRibDsL8WOU7OC8auXNqeWfmrWgxMoXd3-TOAa0Wlkapx8yknUKjc685wN4mHZZ5EbiHi&_nc_ht=scontent.fdad3-5.fna&oh=76de5ed437e41de6c8941ade80968a53&oe=61A2F338" alt="">
+        </div>
     </body>
 </html>
